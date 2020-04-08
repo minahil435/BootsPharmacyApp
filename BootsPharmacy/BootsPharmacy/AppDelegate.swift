@@ -34,4 +34,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+@IBDesignable extension UIView {
 
+@IBInspectable var borderUIColor: UIColor? {
+    set {
+        layer.borderColor = newValue?.cgColor
+    }
+    get {
+        guard let color = layer.borderColor else {
+            return nil
+        }
+        return UIColor(cgColor: color)
+    }
+}
+
+@IBInspectable var borderUIWidth: CGFloat {
+    set {
+        layer.borderWidth = newValue
+    }
+    get {
+        return layer.borderWidth
+    }
+}
+}
