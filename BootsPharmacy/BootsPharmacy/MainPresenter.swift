@@ -51,4 +51,14 @@ extension MainPresenter {
         return DisplayArray[MainPresenter.QuestionArrayIndex]
 
     }
+    
+    func DeleteAnswerToMainArray( _ index : Int){
+        while (index<MainPresenter.MainArray.count){
+            MainPresenter.MainArray.removeLast()
+            let (q, _) = index.quotientAndRemainder(dividingBy: 2)
+            MainPresenter.QuestionArrayIndex = q
+             delegate?.MainArraysUpdated()
+            
+        }
+    }
 }

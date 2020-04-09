@@ -94,6 +94,10 @@ extension MainViewController: UITableViewDelegate,UITableViewDataSource{
             return cell ?? UITableViewCell()
         }
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+         if !(MainPresenter.MainArray[indexPath.row].isquestion){
+            MainPresenter.shared.DeleteAnswerToMainArray(indexPath.row)}
+    }
 }
 
 extension MainViewController: MainArrayUpdateable{

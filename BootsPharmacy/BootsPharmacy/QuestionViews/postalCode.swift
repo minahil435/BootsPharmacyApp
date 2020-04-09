@@ -50,6 +50,7 @@ class postalCode : UIView {
 extension postalCode : UITextFieldDelegate{
     func textFieldShouldReturn(_ textField: UITextField) -> Bool{
         MainPresenter.shared.AppendAnwerToMainArray( CellStruct(statement: textField.text ?? "", isquestion: false))
+        textField.text = ""
         textField.resignFirstResponder()
         return true
     }
