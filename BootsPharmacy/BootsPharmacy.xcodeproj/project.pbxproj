@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B25AC07244361B600E6A174 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B25AC06244361B600E6A174 /* WelcomeViewController.swift */; };
 		9B69C1E8243B21420082F48E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69C1E7243B21420082F48E /* AppDelegate.swift */; };
 		9B69C1EA243B21420082F48E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69C1E9243B21420082F48E /* SceneDelegate.swift */; };
 		9B69C1EC243B21420082F48E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69C1EB243B21420082F48E /* MainViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B25AC06244361B600E6A174 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		9B69C1E4243B21420082F48E /* BootsPharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootsPharmacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B69C1E7243B21420082F48E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B69C1E9243B21420082F48E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				9B69C1FB243B31F80082F48E /* QuestionViews */,
 				9B69C1FE243B35F30082F48E /* UtilityFiles */,
 				9B69C1E7243B21420082F48E /* AppDelegate.swift */,
+				9B25AC06244361B600E6A174 /* WelcomeViewController.swift */,
 				9B69C1E9243B21420082F48E /* SceneDelegate.swift */,
 				9B69C1EB243B21420082F48E /* MainViewController.swift */,
 				9B69C20F243C64150082F48E /* MainPresenter.swift */,
@@ -197,6 +200,7 @@
 			files = (
 				9B69C202243B36B00082F48E /* TwoSelectionView.swift in Sources */,
 				9B69C1EC243B21420082F48E /* MainViewController.swift in Sources */,
+				9B25AC07244361B600E6A174 /* WelcomeViewController.swift in Sources */,
 				9B69C218243DC74F0082F48E /* SelectAddress.swift in Sources */,
 				9B69C214243DBD560082F48E /* postalCode.swift in Sources */,
 				9B69C20D243B468A0082F48E /* AnswerTableViewCell.swift in Sources */,

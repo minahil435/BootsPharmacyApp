@@ -44,7 +44,7 @@
                         </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
-                <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="LYz-y1-PsJ" secondAttribute="trailing" id="7Xy-rt-mtC"/>
                     <constraint firstAttribute="bottom" secondItem="LYz-y1-PsJ" secondAttribute="bottom" id="WYq-k9-zyK"/>
