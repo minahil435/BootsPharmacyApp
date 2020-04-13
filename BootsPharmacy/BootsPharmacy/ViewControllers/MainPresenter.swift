@@ -65,10 +65,11 @@ extension MainPresenter {
     }
     
     func SetAddressArray(_ array : [Results]){
-    
+        
         for each in array{
           let address = each.addressLine1 + " " + each.addressLine2 + " " + each.addressLine3 + " " + each.addressLine4
             addressArray.append(address)
+            
         }
     }
 }
