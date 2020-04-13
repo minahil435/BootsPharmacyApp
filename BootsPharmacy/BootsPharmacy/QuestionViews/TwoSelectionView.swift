@@ -12,6 +12,9 @@ import UIKit
 @IBDesignable
 class TwoSelectionView : UIView {
 
+    @IBOutlet weak var noButton: UIButton!
+    @IBOutlet weak var yesButton: UIButton!
+    
     var contentView : UIView?
     
     override init(frame: CGRect) {
@@ -22,6 +25,12 @@ class TwoSelectionView : UIView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         xibSetup()
+    }
+    override func draw(_ rect: CGRect) {
+        noButton.clipsToBounds = true
+        noButton.layer.cornerRadius = 5
+        yesButton.clipsToBounds = true
+        yesButton.layer.cornerRadius = 5
     }
     
     func xibSetup() {

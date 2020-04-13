@@ -8,11 +8,20 @@
 
 import Foundation
 import UIKit
+protocol SelectAddressDelegate: class {
+    func SelectAddressVC()
+}
 
 class SelectAddress : UIView {
     
+    @IBOutlet weak var selectAddressButton: UIButton!
     var contentView : UIView?
+    weak var delegate : SelectAddressDelegate?
         
+    override func draw(_ rect: CGRect) {
+        selectAddressButton.layer.cornerRadius = 5
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         xibSetup()
@@ -40,5 +49,6 @@ class SelectAddress : UIView {
     }
     
     @IBAction func selectButtonPressed(_ sender: UIButton) {
+        self.delegate?.SelectAddressVC()
     }
 }

@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="postalCode" customModule="BootsPharmacy" customModuleProvider="target">
             <connections>
+                <outlet property="activityIndicator" destination="XEm-LU-W3u" id="gfr-L4-l3g"/>
                 <outlet property="postcodeTextField" destination="AaT-T4-BoZ" id="7kH-MQ-Rn2"/>
             </connections>
         </placeholder>
@@ -33,12 +34,18 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </textField>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="XEm-LU-W3u">
+                    <rect key="frame" x="339" y="168.5" width="37" height="37"/>
+                    <color key="color" red="0.0" green="0.4039215686" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="XEm-LU-W3u" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="8jJ-2y-BPu"/>
                 <constraint firstItem="AaT-T4-BoZ" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="IiJ-4K-fB4"/>
                 <constraint firstItem="AaT-T4-BoZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="Vtv-hM-pId"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="AaT-T4-BoZ" secondAttribute="trailing" constant="24" id="eY4-XL-ZVa"/>
+                <constraint firstItem="XEm-LU-W3u" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="mX7-x9-oec"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
