@@ -29,8 +29,10 @@ class MainPresenter {
     static var MainArray = [CellStruct]()
     static var QuestionArrayIndex = 0
     static var shared = MainPresenter()
+    var addressArray = [String]()
     
-    var DisplayArray = [MainStruct(question: "Have you used this service before", view: TwoSelectionView()),MainStruct(question: "Enter your postcode", view: postalCode()),MainStruct(question: "Select address", view: SelectAddress())]
+    var DisplayArray = [MainStruct(question: "Have you used this service before", view: TwoSelectionView()),MainStruct(question: "Enter your postcode", view: postalCode()),MainStruct(question: "Select address", view: SelectAddress()),
+                        MainStruct(question: "More to come", view: UIView())]
     
     init() {
          MainPresenter.MainArray.append(CellStruct(statement: DisplayArray[MainPresenter.QuestionArrayIndex].question,isquestion: true))
@@ -59,6 +61,14 @@ extension MainPresenter {
             MainPresenter.QuestionArrayIndex = q
              delegate?.MainArraysUpdated()
             
+        }
+    }
+    
+    func SetAddressArray(_ array : [Results]){
+    
+        for each in array{
+          let address = each.addressLine1 + " " + each.addressLine2 + " " + each.addressLine3 + " " + each.addressLine4
+            addressArray.append(address)
         }
     }
 }

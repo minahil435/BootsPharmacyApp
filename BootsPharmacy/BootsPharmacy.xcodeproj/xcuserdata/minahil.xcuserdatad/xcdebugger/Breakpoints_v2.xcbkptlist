@@ -7,80 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "85C26C21-C76B-4846-B44D-8D307FBA129E"
+            uuid = "3C11ACEE-F2FB-457A-B378-A091390C9732"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BootsPharmacy/MainPresenter.swift"
+            filePath = "BootsPharmacy/QuestionViews/postalCode.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "DeleteAnswerToMainArray(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DF98EB6F-B1EF-43F5-9CAB-505781145787"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BootsPharmacy/WelcomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "StartButtonPressed(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "DF98EB6F-B1EF-43F5-9CAB-505781145787 - 6cbdff4a335eae01"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "BootsPharmacy.WelcomeViewController.StartButtonPressed(__C.UIButton) -&gt; ()"
-                  moduleName = "BootsPharmacy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/minahil/Documents/bootsPharmacyApp/BootsPharmacy/BootsPharmacy/WelcomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "85">
-               </Location>
-               <Location
-                  uuid = "DF98EB6F-B1EF-43F5-9CAB-505781145787 - 6cbdff4a335eae01"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "BootsPharmacy.WelcomeViewController.StartButtonPressed(__C.UIButton) -&gt; ()"
-                  moduleName = "BootsPharmacy"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/minahil/Documents/bootsPharmacyApp/BootsPharmacy/BootsPharmacy/WelcomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "428">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "971F9D48-B1A8-4BE0-B9CB-7A97F7130BB6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "BootsPharmacy/WelcomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "StartButtonPressed(_:)"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "getPharmacies(_:_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
